@@ -20,4 +20,19 @@ The simulation uses the **3GPP TR 38.901 UMi-Street Canyon** propagation model. 
 - **Noise Floor:** -174 dBm/Hz (Thermal)
 
 ## How to Run
-./ns3 run scratch/urban-canyon-model.cc -- --width=80 --freq=28e9 --highDensity=1
+./ns3 run scratch/urban-canyon-researchv4.cc -- --width=40 --freq=3.5e9 --highDensity=1
+
+## Options
+Width:
+- 5
+- 20
+- 40
+- 80
+
+Frequency:
+- 3.5e9 (midband)
+- 28e9 (mmWave)
+
+Density:
+- 0 (clear)
+- 1 (crowded)
